@@ -16,7 +16,7 @@ jobs:
         id: checkov
         uses: bridgecrewio/checkov-action@master
         with:
-          directory: example/examplea
+          directory: state_host_ga/main.tf
           framework: terraform
 
       - name: Set up Terraform
